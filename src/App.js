@@ -3,13 +3,13 @@ import React from 'react';
 import RecipeList from './components/RecipeList';
 import recipes from './data/recipesData';
 import Cards from './Cards';
-im
+import NewCard from './components/NewCard';
 function App() {
   return (
     <div className="App">
       <h1 style = {{}}>Recipe Website</h1>
-        
-      <RecipeList recipes={recipes} />
+        <NewCard />
+      fghfghrt<RecipeList recipes={recipes} />
     </div>
   );
   
